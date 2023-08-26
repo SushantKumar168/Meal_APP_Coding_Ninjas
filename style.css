@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300&display=swap');
+
+
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.navbar {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, red, yellow);
+    
+    
+}
+#logo {
+    color: black;
+    
+}
+#fav {
+    color: black;
+    
+}
+
+.searchbox {
+    margin: 0;
+    width: 40%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: .8rem 2rem .8rem 1rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    color:black;
+}
+
+.searchbutton {
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, red, yellow);
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: .8rem 1rem;
+    margin-left: -1.9%;
+}
+
+i {
+    color: black;
+}
+
+/* .image-info{
+    height: 40%
+}
+
+.image-info img{
+    height: 100%;
+} */
+
+.recipe-list {
+    margin: auto;
+}
+
+.card {
+    background-color: #CFCECE;
+    border-radius: 30px;
+    color: black;
+}
+
+.btn-warning {
+    background: rgb(255, 255, 255);
+    background: black;
+    border-radius: 30px;
+    padding: 0.4rem 2rem;
+    color: white!important;
+}
+.white{
+    color: white;
+}
+.food-wid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+   
+    background:  rgb(249, 249, 249) 100%;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(0deg, red, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 2px solid black; */
+
+}
+
+.heading{
+    font-family: 'Anton', sans-serif;
+}
+
+#recipe-intro{
+    font-weight: lighter!important;
+    word-spacing: 0.3rem;
+    
+}
